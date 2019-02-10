@@ -1,5 +1,5 @@
 {
-    "name": "cardinal",
+    "name": "dpaniagua/cardinal",
     "description": "Laravel user role and permissions system",
     "type": "library",
     "require": {
