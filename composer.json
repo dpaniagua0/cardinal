@@ -1,5 +1,5 @@
 {
-    "name": "dpaniagua/cardinal",
+    "name": "cardinal",
     "description": "Laravel user role and permissions system",
     "type": "library",
     "require": {
@@ -13,6 +13,13 @@
         "psr-4": {
             "Dpaniagua0\\Cardinal\\": "src"
         }
+    },
+    "extra": {
+      "laravel": {
+        "providers": {
+          "Dpaniagua0\\Cardinal\\Providers\\CardinalServiceProvider"
+        }
+      }
     },
     "license": "MIT",
     "authors": [
