@@ -1,0 +1,25 @@
+{
+    "name": "dpaniagua/cardinal",
+    "description": "Laravel user role and permissions system",
+    "type": "library",
+    "require": {
+        "illuminate/support": "5.7",
+        "php": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dpaniagua0\\Cardinal\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Paniagua",
+            "email": "dpaniagua0@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
